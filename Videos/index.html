@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Videos by Karthik</title>
+    <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="style1.css">
+    <link rel="icon"  href="Images/logo.ico">
+    <script src="js/jquery3.1.0.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="youtube_video">
+                <iframe width="100%" height="100%" id="video_id" src="https://www.youtube.com/embed/JnQcMHeTTEw?rel=0"
+                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="details">
+                <p>Welcome To <br> <br> Karthik Tech</p>
+            </div>
+        </div>
+        <div class="gallery">
+            <div class="item">
+                <img src="https://i.ytimg.com/vi/rDjb-8ziMrU/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDLiMF9mf4_7gwQOOzMjBoXWzZAFw" data-id="rDjb-8ziMrU?rel=0">
+                <div class="youtube_icon">
+                    <img src="images/youtube.svg">
+                </div>
+            </div>
+            <div class="item">
+                <img src="https://i.ytimg.com/vi/7Blw4Envnjg/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBIOlVj53Xxe0wj5Og8dr4rtgbjpQ" data-id="7Blw4Envnjg?rel=0">
+                <div class="youtube_icon">
+                    <img src="images/youtube.svg">
+                </div>
+            </div>
+            <div class="item">
+                <img src="https://i.ytimg.com/vi/JnQcMHeTTEw/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAtX4meBgQ-_Wt-m9CrL8OjweaOvA" data-id="JnQcMHeTTEw?rel=0">
+                <div class="youtube_icon active">
+                    <img src="images/youtube.svg">
+                </div>
+            </div>
+            <div class="item">
+                <img src="https://i.ytimg.com/vi/_KdYhJQ_pGE/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDbwQr3qE0mxHAwc5NoqXOckSonuA" data-id="_KdYhJQ_pGE?rel=0">
+                <div class="youtube_icon">
+                    <img src="images/youtube.svg">
+                </div>
+            </div>
+           <div class="button">
+            <a href="https://brilliant-tech.github.io/KarthikTech/" class="btn">Home</a>
+        </div>
+        <div class="button1">
+            <a class="active" href="#" class="btn1">1</a>
+        </div>
+        <div class="button2">
+            <a href="index2.html" class="btn2">2</a>
+        </div>
+        <div class="button3">
+            <a href="index3.html" class="btn3">3</a>
+        </div>
+        <div class="button4">
+            <a href="index4.html" class="btn4">4</a>
+        </div>
+        <div class="button5">
+            <a href="index5.html" class="btn5">5</a>
+        </div>
+        <div class="button6">
+            <a href="index6.html" class="btn6">6</a>
+        </div>
+        <div class="button7">
+            <a href="index7.html" class="btn7">7</a>
+        </div>
+            
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            $(".item").click(function () {
+                let youtube_id = $(this).children("img").attr("data-id");
+                $(this).children(".youtube_icon")
+                    .addClass("active").parent()
+                    .siblings()
+                    .children(".youtube_icon")
+                    .removeClass("active")
+
+                let newUrl = `https://www.youtube.com/embed/${youtube_id}`;
+                $("#video_id").attr("src", newUrl);
+
+            })
+            //due to slow connection video is playing slow
+            // you can call your playlist using youtube api
+        })
+    </script>
+</body>
+
+</html>
