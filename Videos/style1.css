@@ -1,0 +1,189 @@
+.button{
+    position: absolute;
+    font-size: 25px;
+    font-family: Fantasy;
+    top: 10%;
+    left: 90%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+    border: 1px solid #0000FF;
+    padding: 10px 30px;
+    color: #0000FF;
+    text-decoration: none;
+    transition: 0.6s ease;
+
+}
+
+.btn:hover{
+    background-color: #00ff00;
+    color: #0000FF;
+    
+}
+.button1{
+    position: absolute;
+    font-size: 20px;
+    font-family: Fantasy;
+    bottom: -1%;
+    left: 39%;
+    transform: translate(-50%,-50%);
+}
+
+.btn1{
+    border: 1px solid #0000FF;
+    padding: 10px 10px;
+    color: #0000FF;
+    text-decoration: none;
+    transition: 0.6s ease;
+
+}
+
+.btn1:hover{
+    background-color: #00ff00;
+    color: #0000FF;
+    
+}
+.active {
+    background-color: #fff;
+    color: #000;
+}
+.button2{
+    position: absolute;
+    font-size: 20px;
+    font-family: Fantasy;
+    bottom: -1%;
+    left: 42%;
+    transform: translate(-50%,-50%);
+}
+
+.btn2{
+    border: 1px solid #0000FF;
+    padding: 10px 10px;
+    color: #0000FF;
+    text-decoration: none;
+    transition: 0.6s ease;
+
+}
+
+.btn2:hover{
+    background-color: #00ff00;
+    color: #0000FF;
+    
+}
+.button3{
+    position: absolute;
+    font-size: 20px;
+    font-family: Fantasy;
+    bottom: -1%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+}
+
+.btn3{
+    border: 1px solid #0000FF;
+    padding: 10px 10px;
+    color: #0000FF;
+    text-decoration: none;
+    transition: 0.6s ease;
+
+}
+
+.btn3:hover{
+    background-color: #00ff00;
+    color: #0000FF;
+    
+}
+.button4{
+    position: absolute;
+    font-size: 20px;
+    font-family: Fantasy;
+    bottom: -1%;
+    left: 48%;
+    transform: translate(-50%,-50%);
+}
+
+.btn4{
+    border: 1px solid #0000FF;
+    padding: 10px 10px;
+    color: #0000FF;
+    text-decoration: none;
+    transition: 0.6s ease;
+
+}
+
+.btn4:hover{
+    background-color: #00ff00;
+    color: #0000FF;
+    
+}
+.button5{
+    position: absolute;
+    font-size: 20px;
+    font-family: Fantasy;
+    bottom: -1%;
+    left: 51%;
+    transform: translate(-50%,-50%);
+}
+
+.btn5{
+    border: 1px solid #0000FF;
+    padding: 10px 10px;
+    color: #0000FF;
+    text-decoration: none;
+    transition: 0.6s ease;
+
+}
+
+.btn5:hover{
+    background-color: #00ff00;
+    color: #0000FF;
+    
+}
+.button6{
+    position: absolute;
+    font-size: 20px;
+    font-family: Fantasy;
+    bottom: -1%;
+    left: 54%;
+    transform: translate(-50%,-50%);
+}
+
+.btn6{
+    border: 1px solid #0000FF;
+    padding: 10px 10px;
+    color: #0000FF;
+    text-decoration: none;
+    transition: 0.6s ease;
+
+}
+
+.btn6:hover{
+    background-color: #00ff00;
+    color: #0000FF;
+    
+}
+.button7{
+    position: absolute;
+    font-size: 20px;
+    font-family: Fantasy;
+    bottom: -1%;
+    left: 57%;
+    transform: translate(-50%,-50%);
+}
+
+.btn7{
+    border: 1px solid #0000FF;
+    padding: 10px 10px;
+    color: #0000FF;
+    text-decoration: none;
+    transition: 0.6s ease;
+
+}
+
+.btn7:hover{
+    background-color: #00ff00;
+    color: #0000FF;
+    
+}
+
